@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-fetch';
 
-export const fsaFetch = (endpoint, params) => {
+export default (endpoint, params) => {
   return new Promise(async (resolve, reject) => {
     try {
       const res = await fetch(endpoint, params);
