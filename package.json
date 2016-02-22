@@ -1,0 +1,28 @@
+{
+  "name": "fsa-fetch",
+  "version": "1.0.0",
+  "description": "fsa-fetch",
+  "main": "src/index.js",
+  "scripts": {
+    
+  },
+  "dependencies": {
+    "isomorphic-fetch": "2.2.1",
+  },
+  "devDependencies": {
+
+  },
+  "peerDependencies": {},
+  "semistandard": {
+    "parser": "babel-eslint",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sagacify/fsa-fetch"
+  },
+  "author": "Sagacify",
+  "bugs": {
+    "url": "https://github.com/Sagacify/fsa-fetch/issues"
+  },
+  "homepage": "https://github.com/Sagacify/fsa-fetch"
+}
