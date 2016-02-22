@@ -2,9 +2,17 @@
   "name": "fsa-fetch",
   "version": "1.0.1",
   "description": "fsa-fetch",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
   "dependencies": {
     "isomorphic-fetch": "2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-stage-0": "6.5.0"
   },
   "semistandard": {
     "parser": "babel-eslint"
