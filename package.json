@@ -1,6 +1,6 @@
 {
   "name": "fsa-fetch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fsa-fetch",
   "main": "dist/index.js",
   "scripts": {
